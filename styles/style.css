@@ -21,6 +21,15 @@
   font-weight: 500;
 }
 
+/* company section */
+.company {
+  margin-top: 60px;
+}
+
+.company-logo-container {
+  margin-top: 60px;
+}
+
 /* responsive mobile */
 @media screen and (max-width: 576px) {
   /* header responsive */
