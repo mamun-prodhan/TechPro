@@ -1,0 +1,48 @@
+.header-heading {
+  font-size: 64px;
+  font-weight: bold;
+}
+.button-orange {
+  font-size: 18px;
+  padding: 20px 30px;
+  background: #f84c03;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+}
+.button-white {
+  font-size: 18px;
+  padding: 20px 30px;
+  background: #fff;
+  border-radius: 8px;
+  border: 1px solid #d5d5d5;
+  color: #000;
+  font-weight: 500;
+}
+
+/* responsive mobile */
+@media screen and (max-width: 576px) {
+  /* header responsive */
+  .header-heading {
+    font-size: 32px;
+  }
+
+  /* header button */
+  .button-orange {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+  .button-white {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+}
+
+/* responsive tablet */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  /* header responsive */
+  .header-heading {
+    font-size: 48px;
+  }
+}
